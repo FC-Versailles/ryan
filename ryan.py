@@ -30,7 +30,7 @@ image = load_image_from_github("pic.png")
 if image:
     st.image(image, width=100)
 # Title & Player Overview
-st.title("Freddy Mbemba - 22 (RDC)")
+st.title("Ryan Tchato - 20 (FR)")
 # Button linking to Transfermarkt profile
 st.link_button("Transfermarkt Profile", "https://www.transfermarkt.fr/ryan-tchato/profil/spieler/743516")
 
