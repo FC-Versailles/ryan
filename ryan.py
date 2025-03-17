@@ -38,21 +38,49 @@ st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Key Insights
 st.header("🔍 Key Insights")
+    # Physical Profile Analysis
 st.markdown(
     """
-    **xxx is an talented forward player with lot of potential. His football profile and personality are two strong indicators that suggest Freddy will reach the highest level.**
+    ## **Ryan Tchato | Explosive & Aggressive Full-Back**
     
-    **Personality & mentality** 🏃‍♂️💨
-    - Strong determination to reach high level 
-    - H
+    **🌟 Overview**
+    - A **dynamic, physically strong right-back** with impressive speed and defensive qualities.
+    - Capable of playing both **right-back (RB) and right wing-back (RWB)**, providing tactical flexibility.
+    - **Fast, aggressive, and hard to beat in 1v1 duels**, making him a strong defensive asset.
 
+    ### **🧠 Personality & Mentality**
+    - **Highly competitive & aggressive**, thrives in defensive duels.
+    - **Hardworking & physically resilient**, covering large distances per game.
+    - **Tactical discipline**, making him reliable in defensive setups.
+    - **Room for leadership growth**, could develop into a vocal presence in the backline.
+
+    ### **🎯 Football Profile**
+    - **Defensive Strengths:**
+      - **Strong in duels**, aggressive in 1v1 situations.
+      - **Excellent tackling & interceptions**, often wins the ball high up the pitch.
+      - **Aerially solid**, rare for a full-back.
     
-    **Football Profile**  🎯
-    - Dribbling & Carrying: Excellent (P86) 
-    - Shot Efficiency: Post-shot xG and touch in the box 
-    - Speed & explosiveness : Strong physical habilities
+    - **Physical & Athletic Qualities:**
+      - **Top speed of 31.2 km/h**, making him one of the fastest full-backs.
+      - **High-intensity sprints & endurance**, allowing him to cover ground effectively.
+      - **Explosive acceleration & deceleration**, ideal for both pressing and recovery runs.
 
-    **Best suited for:** Freddy can help teams that play the offensive transition or direct play (speed, run behind) and also in positonnal attack (1v1 as winger or second striker) 🏹⚡
+    - **Attacking Contributions (Needs Improvement):**
+      - **Limited in deep progressions & crossing accuracy**.
+      - **Can improve ball carrying under pressure**.
+      - **Potential to develop as a modern attacking full-back with better offensive output**.
+
+    ### **🔄 Areas for Development**
+    - **Increase attacking impact** with better crossing and decision-making in the final third.
+    - **Improve ball retention under pressure** to limit turnovers.
+    - **Work on attacking positioning** to contribute more in wide areas.
+
+    ### **🚀 Future Potential**
+    - **Currently a solid defensive full-back**, with room to evolve into a **complete modern right-back**.
+    - **Ideal for a high-intensity pressing team**, where his defensive work rate and speed are valuable.
+    - **A move to Ligue 2 or an international club** could be the next logical step if he improves his attacking impact.
+
+    ✅ **Ryan is a strong, aggressive full-back with elite defensive qualities and physical attributes. If he refines his attacking play, he could become a top-level modern full-back.**
     """
 )
 
@@ -60,7 +88,7 @@ st.markdown(
 whatsapp_number = "33771730001"  # Example: +33 for France
 
 # Message to send
-message = "Hello, I am interested in Freddy Mbemba. Can we discuss further?"
+message = "Hello, I am interested in Ryan Tchato. Can we discuss further?"
 
 # Encode message for URL
 encoded_message = urllib.parse.quote(message)
@@ -76,75 +104,160 @@ if st.button("📲 Contact Sport Director"):
 st.markdown("<hr style='border:1px solid #ddd' />", unsafe_allow_html=True)
 
 # Vertical Display with Expanders
-with st.expander("👤 Player Career | Young player ready for a new step"):
+with st.expander("👤 Player Career | Special young player "):
     image = load_image_from_github("fiche.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy has progressed rapidly through divisions, demonstrating strong development potential.Freddy is a young talented forward player, right footed. His career path illustrate the potential and the development of Freddy. In 21/22 he played in 6th division, 22/23 he was transfered in USL Dunkerque in the 3rd Division. 23/24 USL Dunkerque jump in 2nd division and Freddy was in loan to Nimes in 3rd division. Freddy is ready to take a new step in his career")
+    # Career Analysis
+    st.write("""
+    ### 🛤 **Career Path Analysis:**
+    - **Early Development:** Trained at Montpellier’s academy, progressing from the U19s to the B team.
+    - **Professional Transition:** Moved to **FC Versailles** in August 2024, a crucial step to gain first-team experience in National (3rd division).
+    - **Versatility:** Primarily a **right-back**, but also capable of playing **left-back and right midfield**, adding tactical flexibility.
+    
+    ### 🚀 **Next Step:**
+    - **Key Strengths:**
+      - Strong **mentality and work ethic**, essential for high-level progression.
+      - **Good defensive fundamentals** combined with offensive contributions.
+      - **Adaptable**, making him an asset in various systems.
+    
+    - **Future Progression:**
+      - If he **performs consistently in National**, he could attract **Ligue 2 clubs** looking for a modern full-back.
+      - Should focus on **developing tactical awareness** and refining technical aspects like crossing and ball progression.
+      - **Long-term potential:** With continued growth, could become an asset for **top-tier leagues or international competitions**.
+    
+    ✅ **Ryan possesses the right mentality and work rate for the top level. His next challenge is proving consistency at Versailles to earn a move to a higher division.**
+    """)
 
-with st.expander("📍 Position Played | Left Winger & Versatile Forward"):
+with st.expander("📍 Position Played | Defensive right back"):
     image = load_image_from_github("position.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy primarily plays as a left winger but is also comfortable as a second striker or right winger. Freddy is a complete forward player.")
+    # Positional Analysis
+    st.write("""
+    ### **Ryan Tchato | Versatile Right-Back**
+    - **Main Position:** Right-Back (RB) 
+    - **Alternative Role:** Right Wing-Back (RWB) in more attacking setups.
+    
+    **🔍 Tactical Profile:**
+    - Primarily a **defensive full-back**, solid in 1v1 situations.
+    - Comfortable pushing forward as a **right wing-back** when needed.
 
-with st.expander("⏳ Minutes played | A key player - 23/24 starting lineups"):
+    ✅ **Ryan is a solid, defensively reliable full-back with room for growth in offensive contributions.**
+    """)
+
+with st.expander("⏳ Minutes played | An asset player"):
     image = load_image_from_github("minutes_played.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("This season Freddy is a key player for the team. Freddy took 22/23 lineups and more than 90% of the available minutes. For the first time of his career he took 2 yellows cards that bring to a missing match.")
+    # Performance Analysis
+    st.write("""
+    ### **📊 Match Involvement:**
+    - **Appearances:** Featured in multiple matches but with inconsistent minutes.
+    - **Starting Role:** Began some games but was often substituted out.
+    - **Late-Season Trends:** Reduced game time in 2025, possibly due to competition, injury, or tactical changes.
+    - **Unused Substitute & DNP Matches:** Several instances where he wasn’t used, indicating he may be in a rotational role.
 
-with st.expander("🛡 Player Profile | Wide Threat - Explosive & Dribbler"):
+    """)
+with st.expander("🛡 Player Profile | Defensive right back"):
     image = load_image_from_github("leaugue_Comparison.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy excels in high-intensity attacking scenarios, with great dribbling skills and goal instincts. Freddy Mbemba is a high-intensity, direct winger with strong dribbling and goal-scoring instincts. His ability to take on defenders and progress the ball makes him an exciting attacking asset, but improving his crossing precision and playmaking could make him a more complete forward. 🚀")
+# Player profile analysis
+    st.write("""
+    ### **Ryan Tchato | Physical & Aggressive Full-Back**
+    
+    #### **🔍 Strengths:**
+    - **Defensive Ability:** Excels in aggressive actions, tackles, and interceptions, ranking above the league average.
+    - **Aerial Presence:** Strong in aerial duels, which is a rare quality for a full-back.
+    - **High Defensive Actions:** His involvement in defensive duels and recoveries is higher than most full-backs in the league.
+    - **Press Resistance:** Handles pressure well when passing, minimizing costly errors.
+
+    #### **📉 Areas for Improvement:**
+    - **Offensive Contribution:** Below league average in deep progressions, crosses, and passing impact.
+    - **Ball Carrying & Creativity:** Needs to improve his ball progression and confidence in attacking phases.
+    - **Turnovers:** A tendency to lose possession in build-up play, requiring better decision-making under pressure.
+
+    #### **📊 Tactical Fit:**
+    - Best suited for a **defensive-minded team** that prioritizes solidity over offensive overlapping runs.
+    - Could be valuable in a **back three system as a right wing-back** if he improves crossing and attacking contributions.
+    - Ideal for **a team that presses high**, as his aggressive duels and interceptions suit proactive defensive structures.
+
+    ### **🚀 Next Steps in Development:**
+    - Work on crossing accuracy and final third decision-making.
+    - Improve technical ability in **1v1 offensive duels** to be more dangerous going forward.
+    - Enhance passing range and confidence to initiate plays more effectively.
+
+    ✅ **Ryan is an aggressive, defensively solid full-back with strong tackling and aerial ability. If he improves his offensive impact, he could develop into a high-level modern full-back.**
+    """)
+
+# with st.expander("📈 Performance Progression | Individual Development"):
+#     image = load_image_from_github("progression.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("For the first season in 3rd french division, Ryan show a real interest in the individual development. Wer aim to develop his technical skills and also improve his offensive contribution")
+             
+             
+# with st.expander("👥 Player Comparison | Ernest Nuamah (Ligue 1)"):
+#     image = load_image_from_github("radar.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
 
 
-with st.expander("📈 Performance Progression | Individual Development"):
-    image = load_image_from_github("progression.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Freddy Mbemba has transitioned into a more effective goal-scorer and playmaker (xG assisted), as seen by his higher xG assisted and goal contribution stats. However, there is a slight trade-off in his dribbling and ball progression, suggesting either a tactical shift (e.g., playing higher up the pitch) or defensive adaptation from opponents.")
-
-with st.expander("👥 Player Comparison | Ernest Nuamah (Ligue 1)"):
-    image = load_image_from_github("radar.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Advanced radar stats highlighting Freddy's capabilities to reach top level.")
-
-
-with st.expander("🏋️ Physical Performance | High Intensity & Explosiveness"):
+with st.expander("🏋️ Physical Performance | High Intensity & Power"):
     image = load_image_from_github("physique.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Endurance: Covers significant distance per game (10,845m), showcasing strong stamina. Speed: Reaches a top speed of 32.5 km/h, indicating strong sprint capabilities. In term of intensity: High acceleration/deceleration numbers (35 accelerations, 38 decelerations per game), proving his ability to make explosive movements and quick changes of direction. Sprint Efforts: 27 sprints per game, maintaining a good balance between high-intensity bursts and recovery.")
+    st.write("""
+    ### **Ryan Tchato | Explosive & Enduring Full-Back**
+    
+    #### **📊 Key Physical Attributes:**
+    - **Total Distance Covered:** High work rate, covering an average of **10,828m per game**.
+    - **High-Speed Running (16-24 km/h):** **1,787 meters per game**, indicating strong mobility and ability to track back.
+    - **Sprints (>24 km/h):** Reaches **255 meters per game**, showing his ability to accelerate quickly.
+    - **Acceleration & Deceleration:**
+      - **13 accelerations per game** (>4m/s²), meaning he can quickly reach top speed.
+      - **36 decelerations per game**, crucial for defensive recoveries and transitions.
+    - **Top Speed (VMAX):** Peaks at **31.2 km/h**, which is fast for a full-back.
+
+    #### **🔍 Strengths:**
+    - **Explosive in short bursts**, allowing him to recover defensively.
+    - **High endurance**, making him effective in both defensive and offensive phases.
+    - **Speed for tracking back and overlapping runs**.
+    - **Aggressive deceleration**, allowing him to adjust his position quickly.
+
+    #### **📉 Areas for Development:**
+    - **Increase sprint frequency** to become more dangerous on overlaps.
+    - **Improve acceleration efficiency** to be more reactive in tight spaces.
+    - **Refine movement patterns** to optimize energy use and avoid fatigue.
+
+    #### **📌 Tactical Fit:**
+    - Suited for **high-intensity pressing teams** due to his speed and endurance.
+    - Can excel in **attacking full-back roles**, provided he enhances his final-third impact.
+    - **Well-adapted to modern football**, where full-backs need high physical output.
+
+    ✅ **Ryan is a physically gifted full-back with explosive speed and endurance. With better offensive involvement, he could become a top-tier modern defender.**
+    """)
+
 
 with st.expander("🤕 Injury History | Robust Player"):
     image = load_image_from_github("injuries.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy has maintained excellent availability with no major injuries this season. Freddy is a robust player. He did not get any injury this year that bring 100% of availabity for training and match. He takes care about his body with some session with physio (massage & cares).")
+    st.write("He had no injuries this year. Djamal is very robust and take care of his body")
 
 with st.expander("⚖️ Weight Evolution"):
     image = load_image_from_github("poids.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Monitoring body composition is key to performance optimization. He is currently working with a nutritionist")
+    st.write("Mxxx")
 
 with st.expander("🔥 Personnality & Motivation | high self determination"):
     image = load_image_from_github("Happiness.png")
     if image:
         st.image(image, use_container_width=True)
-    st.write("Freddy is highly motivated and dedicated to his football journey. His motivation runs deep, rooted in his childhood passion, with a constant desire to progress and reach the highest levels of football.")
-
-with st.expander("📊 Game Report"):
-    image = load_image_from_github("game_report.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("Example of Game report, please contact Mathieu Feigean for more explanation or request.")
-
-
+    st.write("x")
 
 
 
