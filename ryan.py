@@ -41,20 +41,20 @@ st.header("🔍 Key Insights")
     # Physical Profile Analysis
 st.markdown(
     """
-    ## **Ryan Tchato | Explosive & Aggressive Full-Back**
+    #### **Powerful & defensive Full-Back**
     
     **🌟 Overview**
     - A **dynamic, physically strong right-back** with impressive speed and defensive qualities.
     - Capable of playing both **right-back (RB) and right wing-back (RWB)**, providing tactical flexibility.
     - **Fast, aggressive, and hard to beat in 1v1 duels**, making him a strong defensive asset.
 
-    ### **🧠 Personality & Mentality**
+    ##### **🧠 Personality & Mentality**
     - **Highly competitive & aggressive**, thrives in defensive duels.
     - **Hardworking & physically resilient**, covering large distances per game.
     - **Tactical discipline**, making him reliable in defensive setups.
     - **Room for leadership growth**, could develop into a vocal presence in the backline.
 
-    ### **🎯 Football Profile**
+    ##### **🎯 Football Profile**
     - **Defensive Strengths:**
       - **Strong in duels**, aggressive in 1v1 situations.
       - **Excellent tackling & interceptions**, often wins the ball high up the pitch.
@@ -70,12 +70,12 @@ st.markdown(
       - **Can improve ball carrying under pressure**.
       - **Potential to develop as a modern attacking full-back with better offensive output**.
 
-    ### **🔄 Areas for Development**
+    ##### **🔄 Areas for Development**
     - **Increase attacking impact** with better crossing and decision-making in the final third.
     - **Improve ball retention under pressure** to limit turnovers.
     - **Work on attacking positioning** to contribute more in wide areas.
 
-    ### **🚀 Future Potential**
+    ##### **🚀 Future Potential**
     - **Currently a solid defensive full-back**, with room to evolve into a **complete modern right-back**.
     - **Ideal for a high-intensity pressing team**, where his defensive work rate and speed are valuable.
     - **A move to Ligue 2 or an international club** could be the next logical step if he improves his attacking impact.
@@ -253,11 +253,11 @@ with st.expander("⚖️ Weight Evolution"):
         st.image(image, use_container_width=True)
     st.write("Mxxx")
 
-with st.expander("🔥 Personnality & Motivation | high self determination"):
-    image = load_image_from_github("Happiness.png")
-    if image:
-        st.image(image, use_container_width=True)
-    st.write("x")
+# with st.expander("🔥 Personnality & Motivation | high self determination"):
+#     image = load_image_from_github("Happiness.png")
+#     if image:
+#         st.image(image, use_container_width=True)
+#     st.write("x")
 
 
 
